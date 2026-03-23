@@ -2,25 +2,34 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>CaféExpress | Acceso</title>
-    <link rel="stylesheet" href="css/branding.css">
+    <title>Login - CaféExpress</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="premium-login-body">
+<body class="login-page">
 
-    <div class="premium-login-card">
-        <h1 class="brand-logo">CaféExpress</h1>
-        <span class="login-subtitle">Experiencia Gourmet</span>
+<div class="login-container">
+    <div class="login-box">
+        <h1>CaféExpress</h1>
+        <p class="subtitle">Experiencia Gourmet</p>
 
-        <form>
-            <div class="premium-input-group">
-                <input type="text" class="premium-input" placeholder="Usuario" required>
+        <form id="loginForm">
+            <div class="input-box">
+                <input type="text" id="user" required>
+                <label>Usuario</label>
             </div>
-            <div class="premium-input-group">
-                <input type="password" class="premium-input" placeholder="Contraseña" required>
+
+            <div class="input-box">
+                <input type="password" id="password" required>
+                <label>Contraseña</label>
             </div>
-            <button type="submit" class="premium-btn">Entrar</button>
+
+            <a href="#" class="forgot">¿Olvidó su contraseña?</a>
+
+            <button type="submit">Entrar</button>
         </form>
     </div>
+</div>
 
+<script src="js/login.js"></script>
 </body>
 </html>
