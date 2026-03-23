@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Express - Carta </title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="header-container"></div> 
+
+    <div class="main-layout">
+        <aside id="sidebar-container"></aside> 
+
+        <main id="main-content">
+            <section id="drinks-section" class="category-section">
+                <div class="category-header drinks-bg">
+                    <h2>Bebidas</h2>
+                </div>
+                <div id="drinks-container" class="products-grid"></div>
+            </section>
+
+            <section id="food-section" class="category-section">
+                <div class="category-header food-bg">
+                    <h2>Alimentos</h2>
+                </div>
+                <div id="food-container" class="products-grid"></div>
+            </section>
+
+            <template id="product-template">
+                <div class="product-card">
+                    <div class="product-img-container"></div>
+                    <div class="product-info">
+                        <h3 class="p-name"></h3>
+                        <p class="p-desc"></p>
+                        <strong class="p-price"></strong>
+                    </div>
+                </div>
+            </template>
+
+            <hr style="max-width: 900px; margin: 40px auto; border: 0; border-top: 1px solid #ccc;">
+            
+            <section class="destacados-section">
+                <h2 class="section-title">Recomendado del Chef</h2>
+                <div id="web-component-container"></div>
+            </section>
+        </main>
+    </div>
+
+    <footer id="footer-container"></footer> 
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
