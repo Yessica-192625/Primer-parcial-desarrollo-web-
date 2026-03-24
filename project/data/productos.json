@@ -1,0 +1,72 @@
+[
+    {
+        "nombre": "Cappuccino Italiano",
+        "precio": 4500,
+        "descripcion": "Espresso con leche vaporizada y espuma sedosa.",
+        "categoria": "bebida",
+        "imagen": "https://i.blogs.es/019df7/650_1000_barilla-cafe-ecodalla/650_1200.jpg"
+    },
+    {
+        "nombre": "Latte de Vainilla",
+        "precio": 5000,
+        "descripcion": "Suave café con un toque dulce de vainilla francesa.",
+        "categoria": "bebida",
+        "imagen": "https://comolopuedohacer.com/wp-content/uploads/2018/02/140405lrg.jpg"
+    },
+    {
+        "nombre": "Mocaccino Especial",
+        "precio": 5500,
+        "descripcion": "La mezcla perfecta de chocolate oscuro y café.",
+        "categoria": "bebida",
+        "imagen": "https://coffeelounge.com.br/wp-content/uploads/2020/06/mocaccino-2-square.jpg"
+    },
+    {
+        "nombre": "Té Matcha Helado",
+        "precio": 6000,
+        "descripcion": "Té verde japonés con leche de almendras.",
+        "categoria": "bebida",
+        "imagen": "https://richingmatcha.com/wp-content/uploads/2025/04/1_8.jpg"
+    },
+    {
+        "nombre": "Croissant de Mantequilla",
+        "precio": 3800,
+        "descripcion": "Hojaldre francés crujiente y recién horneado.",
+        "categoria": "alimento",
+        "imagen": "https://www.recetario-cocina.com/archivosbd/croissant-de-mantequilla.jpg"
+    },
+    {
+        "nombre": "Cheesecake de Frutos Rojos",
+        "precio": 7500,
+        "descripcion": "Base de galleta con crema de queso y mermelada artesanal.",
+        "categoria": "alimento",
+        "imagen": "https://media.airedesantafe.com.ar/p/de067f24b3ac922c85bb4fbf2e4a803e/adjuntos/268/imagenes/003/672/0003672188/1200x675/smart/como-hacer-cheesecake-frutos-rojos-y-chocolate.png"
+    },
+    {
+        "nombre": "Sándwich Gourmet",
+        "precio": 8500,
+        "descripcion": "Pan artesanal con jamón serrano y queso brie.",
+        "categoria": "alimento",
+        "imagen": "https://www.healthyfoodcreation.fr/wp-content/uploads/2020/06/DSC_0472-scaled.jpg"
+    },
+    {
+        "nombre": "Brownie con Nueces",
+        "precio": 4200,
+        "descripcion": "Chocolate fundido con trozos de nuez de nogal.",
+        "categoria": "alimento",
+        "imagen": "https://cdn7.recetasdeescandalo.com/wp-content/uploads/2020/06/Brownie-de-chocolate-con-nueces-humedo-y-denso-irresistible.jpg"
+    },
+    {
+    "nombre": "Affogato Premium",
+    "precio": 9000,
+    "descripcion": "Helado de vainilla bañado en un shot de espresso caliente.",
+    "categoria": "recomendado",
+    "imagen": "https://media.mdzol.com/p/ea19c3adffd86ba31e3760e09a0e5799/adjuntos/373/imagenes/001/856/0001856898/1200x675/smart/si-sos-amante-del-cafe-tenes-que-probar-este-postre.png"
+    },
+    {
+        "nombre": "Tostada de Aguacate",
+        "precio": 9500,
+        "descripcion": "Pan de masa madre con aguacate, huevo poché y semillas.",
+        "categoria": "recomendado",
+        "imagen": "https://primicias24.s3.amazonaws.com/public/uploads/2021/03/01d41c4d04bf94bafa8c0ac13bacd246-1024x576.png"
+    }
+]
